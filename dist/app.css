@@ -1,10 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.navigation {
+  background-color: #ad968f;
+}
+.navigation-link {
+  padding: 18px 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffff;
+  transition: background 0.3s ease-in-out;
+}
+.navigation-link:hover {
+  background: #977a72;
+}
+
 .btn {
   padding: 10px 16px;
   border-radius: 5px;
   background: #f9f9f9;
   text-decoration: none;
 }
-
 .btn-primary {
   background-color: #6969fc;
   color: #ffff;
@@ -12,7 +40,6 @@
 .btn-primary:hover {
   background-color: #3737fb;
 }
-
 .btn-info {
   background-color: #74c98f;
   color: #ffff;
@@ -20,7 +47,6 @@
 .btn-info:hover {
   background-color: #4fbb71;
 }
-
 .btn-danger {
   background-color: #f74a46;
   color: #ffff;
@@ -28,7 +54,6 @@
 .btn-danger:hover {
   background-color: #f51a15;
 }
-
 .btn-dark {
   background-color: #ad968f;
   color: #ffff;
@@ -37,12 +62,8 @@
   background-color: #977a72;
 }
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14px;
-}
-
 .well {
+  margin-top: 50px;
   padding: 15px;
   background-color: #6969fc;
   color: #ffff;

@@ -1,0 +1,14 @@
+.navigation {
+    background-color: $dark-color;
+    &-link {
+        padding: 18px 10px;
+        display: inline-block;
+        text-decoration: none;
+        color: $white;
+        transition: background .3s ease-in-out ;
+
+        &:hover {
+            background: darken($dark-color,10%);
+        }
+    }
+}

@@ -3,17 +3,17 @@
     border-radius : 5px;
     background: #f9f9f9;
     text-decoration: none;
-}
 
-.btn-primary{
-  @include btn-variant($primary-color, $btn-color);
-}
-.btn-info{
-    @include btn-variant($info-color, $btn-color);
-}
-.btn-danger{
-    @include btn-variant($danger-color, $btn-color);
-}
-.btn-dark {
-    @include btn-variant($dark-color, $btn-color);
+    &-primary {
+        @include btn-variant($primary-color, $btn-color);
+    }
+    &-info {
+        @include btn-variant($info-color, $btn-color);
+    }
+    &-danger {
+        @include btn-variant($danger-color, $btn-color);
+    }
+    &-dark {
+        @include btn-variant($dark-color, $btn-color);
+    }
 }
