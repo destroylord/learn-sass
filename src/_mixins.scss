@@ -9,3 +9,9 @@
         background-color: darken($bg, 10%);
     }
 }
+
+@mixin alert-variant($color){
+    background-color: lighten($color, 20%);
+    border-color: $color;
+    color: darken($color, 35%);
+}

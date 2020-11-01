@@ -1,4 +1,4 @@
-.btn, .alert {
+.btn {
   border-radius: 15px;
 }
 
@@ -49,13 +49,23 @@ body {
 
 .alert {
   padding: 15px;
-  border: 2px solid #eee;
-  background-color: #ddd;
+  border-left: 6px solid #eee;
+  margin-bottom: 10px;
 }
 .alert-primary {
-  border: 2px solid #6969fc;
-  background-color: white;
+  background-color: #cdcdfe;
+  border-color: #6969fc;
   color: #0404af;
+}
+.alert-info {
+  background-color: #bde6ca;
+  border-color: #74c98f;
+  color: #27643a;
+}
+.alert-danger {
+  background-color: #fbaaa8;
+  border-color: #f74a46;
+  color: #850906;
 }
 
 .btn {
