@@ -1,0 +1,59 @@
+.btn {
+  padding: 10px 16px;
+  border-radius: 5px;
+  background: #f9f9f9;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #6969fc;
+  color: #ffff;
+}
+.btn-primary:hover {
+  background-color: #3737fb;
+}
+
+.btn-info {
+  background-color: #74c98f;
+  color: #ffff;
+}
+.btn-info:hover {
+  background-color: #4fbb71;
+}
+
+.btn-danger {
+  background-color: #f74a46;
+  color: #ffff;
+}
+.btn-danger:hover {
+  background-color: #f51a15;
+}
+
+.btn-dark {
+  background-color: #ad968f;
+  color: #ffff;
+}
+.btn-dark:hover {
+  background-color: #977a72;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.well {
+  padding: 15px;
+  background-color: #6969fc;
+  color: #ffff;
+  margin-bottom: 30px;
+}
+
+.magnum {
+  color: #ffff;
+  padding: 15px;
+  background-color: #74c98f;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=app.css.map */

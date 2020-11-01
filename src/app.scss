@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'mixins';
+
+
+@import 'button';
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.well {
+    padding: $pd;
+    background-color: $primary-color;
+    color: $white;
+    margin-bottom: 30px;
+}
+.magnum {
+    color: $white;
+    padding: $pd;
+    background-color: $info-color;
+    margin-bottom: 30px;
+}

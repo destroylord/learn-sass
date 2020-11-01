@@ -1,0 +1,11 @@
+
+// mixin
+@mixin btn-variant ($bg, $color){
+
+    background-color: $bg;
+    color : $color;
+
+    &:hover {
+        background-color: darken($bg, 10%);
+    }
+}
