@@ -1,20 +1,9 @@
 @import 'variables';
 @import 'mixins';
+@import 'placeholder';
+
 
 @import 'scaffolding';
 @import 'navigation';
+@import 'alert';
 @import 'button';
-
-.well {
-    margin-top: 50px;
-    padding: $pd;
-    background-color: $primary-color;
-    color: $white;
-    margin-bottom: 30px;
-}
-.magnum {
-    color: $white;
-    padding: $pd;
-    background-color: $info-color;
-    margin-bottom: 30px;
-}

@@ -1,11 +1,10 @@
+.btn, .alert {
+  border-radius: 15px;
+}
+
 * {
   padding: 0;
   margin: 0;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
 }
 
 body {
@@ -13,8 +12,29 @@ body {
   font-size: 14px;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.well {
+  margin-top: 50px;
+  padding: 15px;
+  background-color: #6969fc;
+  color: #ffff;
+  margin-bottom: 30px;
+}
+
+.magnum {
+  color: #ffff;
+  padding: 15px;
+  background-color: #74c98f;
+  margin-bottom: 30px;
+}
+
 .navigation {
   background-color: #ad968f;
+  margin-bottom: 40px;
 }
 .navigation-link {
   padding: 18px 10px;
@@ -27,11 +47,22 @@ body {
   background: #977a72;
 }
 
+.alert {
+  padding: 15px;
+  border: 2px solid #eee;
+  background-color: #ddd;
+}
+.alert-primary {
+  border: 2px solid #6969fc;
+  background-color: white;
+  color: #0404af;
+}
+
 .btn {
   padding: 10px 16px;
-  border-radius: 5px;
   background: #f9f9f9;
   text-decoration: none;
+  display: inline-block;
 }
 .btn-primary {
   background-color: #6969fc;
@@ -60,21 +91,6 @@ body {
 }
 .btn-dark:hover {
   background-color: #977a72;
-}
-
-.well {
-  margin-top: 50px;
-  padding: 15px;
-  background-color: #6969fc;
-  color: #ffff;
-  margin-bottom: 30px;
-}
-
-.magnum {
-  color: #ffff;
-  padding: 15px;
-  background-color: #74c98f;
-  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=app.css.map */

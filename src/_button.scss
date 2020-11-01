@@ -1,8 +1,9 @@
 .btn{
     padding: 10px 16px;
-    border-radius : 5px;
+    @extend %rounded;
     background: #f9f9f9;
     text-decoration: none;
+    display: inline-block;
 
     &-primary {
         @include btn-variant($primary-color, $btn-color);
